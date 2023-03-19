@@ -243,7 +243,7 @@ class MyWindow(QMainWindow, Ui_MainWindow):
         img = img.scaledToWidth(self.label.width())
         img = img.scaledToHeight(self.label.height())
         self.label.setPixmap(img)
-        self.resize(img.width(), img.height())
+        # self.resize(img.width(), img.height())
 
 
 if __name__ == '__main__':
